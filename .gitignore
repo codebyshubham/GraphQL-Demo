@@ -1,0 +1,5 @@
+node_modules/
+.vscode/
+database/prisma.yml
+.env
+yarn.lock

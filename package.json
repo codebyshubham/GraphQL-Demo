@@ -1,0 +1,19 @@
+{
+  "name": "GraphQL-Demo",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^5.0.1",
+    "graphql-yoga": "^1.8.5",
+    "jsonwebtoken": "^8.2.1",
+    "nodemon": "^1.17.3",
+    "prisma-binding": "^1.5.17"
+  },
+  "scripts": {
+    "node-server": "node src/index.js",
+    "playground": "graphql playground",
+    "start": "npm run node-server & npm run playground"
+  }
+}
